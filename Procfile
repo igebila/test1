@@ -1,1 +1,1 @@
-web: gunicorn web.core.test1:application --log-file -
+web: gunicorn test1.wsgi
